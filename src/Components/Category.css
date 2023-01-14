@@ -1,0 +1,71 @@
+.category_box {
+    padding: 2rem;
+}
+
+.category_title {
+    margin: 1rem;
+}
+
+.category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.product_card {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    border-radius: 2rem;
+    position: relative;
+    background: url("../Images/catback.png") no-repeat center;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.20);
+
+}
+
+.product_card_center {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.product_card_center .product_img {
+    height: 20rem;
+}
+
+.product_img {
+    object-fit: cover;
+    height: 12rem;
+}
+
+.product_name {
+    position: absolute;
+    bottom: 2%;
+    right: 4%;
+    color: var(--white-color);
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+.product_details {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.product_details span {
+    padding: 0.3rem 0.7rem;
+    font-size: 1.9rem;
+    border-radius: 1.5rem;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    letter-spacing: 1px;
+}
+
+.product_details h6 {
+    margin-top: 0.5rem;
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+}

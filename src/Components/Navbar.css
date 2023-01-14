@@ -1,0 +1,80 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar_logo {
+    display: flex;
+    align-items: center;
+    background-color: var(--white-color);
+    padding: 0.8rem 1rem;
+    border-radius: 0 2rem 2rem 0;
+}
+
+.navbar_logo .logo {
+    height: 2rem;
+    margin-left: 1rem;
+}
+
+.navbar_logo .logo_name {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.navbar_logo .logo_name span {
+    font-weight: 700;
+}
+
+.navbar_menu {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+}
+
+
+.menu_bar {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.menu_bar li:hover {
+    color: var(--yellow-color);
+}
+
+.menu_cart {
+    font-size: 1.4rem;
+}
+
+.cart_icon {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    color: var(--black-color);
+    background-color: var(--yellow-color);
+
+}
+
+.navbar_tele {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 0.4rem 1rem 0.4rem 0.5rem;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.navbar_tele i {
+    border: 1px solid var(--white-color);
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+}
+
+.navbar_tele span {
+    margin-right: 1rem;
+}

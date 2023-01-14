@@ -1,0 +1,141 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black-color);
+    padding: 8rem 0 5rem 0;
+    border-radius: 2rem 2rem 0 0;
+    position: relative;
+
+}
+
+.footer_menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.7rem 4rem;
+    color: var(--light-black);
+}
+
+.footer_menu li:hover {
+    color: var(--yellow-color);
+
+}
+
+.working_hour {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-left: 2px solid var(--light-black);
+    border-right: 2px solid var(--light-black);
+    padding: 0 2rem;
+    color: var(--light-black);
+}
+
+.working_hour .fa-clock {
+    font-size: 2.5rem;
+}
+
+.working_title {
+    font-size: 1rem;
+}
+
+.working_time {
+    font-size: 0.8rem;
+}
+
+.social_icons {
+    display: flex;
+    gap: 2rem;
+    color: var(--light-black);
+    margin-right: 2rem;
+
+}
+
+.social_icons i {
+    cursor: pointer;
+}
+
+.social_icons i:hover {
+    color: var(--yellow-color);
+}
+
+.footer_banner {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    margin: 0 auto;
+    background: url("../Images/header_back.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+
+}
+
+.footer_img {
+    height: 10rem;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer_title {
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-left: 9rem;
+    font-weight: 300;
+}
+
+.footer_title span {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.subscribe {
+    background-color: var(--lightblue);
+    border-radius: 2rem;
+}
+
+.subscribe_input {
+    background-color: transparent;
+    border-radius: 2rem 0 0 2rem;
+    padding: 0.9rem 1.5rem;
+    width: 420px;
+    color: var(--white-color);
+}
+
+.subscribe_btn {
+    background-color: var(--blue);
+    border-radius: 2rem;
+    padding: 0.9rem 1.6rem;
+    cursor: pointer;
+    color: var(--white-color);
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 9rem;
+}
+
+.copy_line {
+    height: 2px;
+    background-color: var(--light-black);
+}
+
+.copy_title {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+    text-align: center;
+    color: var(--light-black);
+}

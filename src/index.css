@@ -1,0 +1,40 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+:root {
+  --black-color: #36373b;
+  --white-color: #fff;
+  --yellow-color: #fad447;
+  --lightgrey-color: #edeff5;
+  --lightblue: #9bc4fe;
+  --blue: #3471c4;
+  --light-black: #66686d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+button,
+input {
+  border: 0;
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

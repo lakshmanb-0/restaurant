@@ -1,0 +1,55 @@
+.Customer_box {
+    padding: 3rem 4rem;
+}
+
+.Reviews {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4rem;
+    padding: 4rem 2rem;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.Reviews::-webkit-scrollbar {
+    display: none;
+}
+
+.review_box {
+    width: 35rem;
+    padding: 3rem 2rem;
+    background-color: var(--white-color);
+    box-shadow:
+        0px 0px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 1rem;
+    position: relative;
+}
+
+.review_name {
+    text-align: center;
+}
+
+.review_para {
+    margin: 1rem 0;
+}
+
+.review_date {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: var(--yellow-color);
+    border-radius: 1rem 0 0 1rem;
+    padding: 0.2rem 0.7rem;
+    font-size: 0.9rem;
+}
+
+.review_box .review_img {
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    object-fit: cover;
+    width: 100%;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 20rem;
+}

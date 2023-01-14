@@ -1,0 +1,123 @@
+.cata_navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white-color);
+    z-index: 100;
+}
+
+.cata_left,
+.cata_right {
+    display: flex;
+    align-items: center;
+}
+
+.cata_logo {
+    width: 8rem;
+}
+
+.cata_logo .logo {
+    object-fit: contain;
+    width: 100%;
+}
+
+.cata_logo .logo_name {
+    text-align: center;
+}
+
+.cata_search {
+    border: 1px solid var(--light-black);
+    border-radius: 2rem;
+    padding: 0.4rem 0.5rem 0.4rem 1rem;
+    margin-left: 2rem;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cata_search .cata_search_input {
+    width: 80%;
+}
+
+.cata_search .fa-magnifying-glass {
+    background-color: var(--yellow-color);
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    right: 0;
+}
+
+/* cata_right */
+
+.cata_right {
+    color: var(--yellow-color);
+    margin-right: 1rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+/* cata_menu */
+.cata_menu {
+    padding: 2rem 2rem 2rem 0;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    position: absolute;
+    border-radius: 0 2rem 2rem 0;
+    width: 11rem;
+    height: 50rem;
+    z-index: 10;
+}
+
+.cata_menu_category {
+    border-bottom: 1px solid var(--light-black);
+    margin-bottom: 1rem;
+}
+
+.cata_menu li {
+    padding: 0.2rem 0.5rem 0.2rem 2rem;
+    border-radius: 0 2rem 2rem 0;
+    margin-bottom: 0.5rem;
+}
+
+.cata_menu_category li:hover {
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+    transition: 0.5s;
+}
+
+.cata_services {
+    border-bottom: 1px solid var(--light-black);
+}
+
+.cata_services_title,
+.cata_menu_title {
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.cata_menu .cata_signoff {
+    margin: 2rem 1rem;
+    padding: 0.3rem 0.8rem;
+    font-size: 1.2rem;
+}
+
+/* cata_section */
+.cata_section {
+    padding: 0.5rem 1rem;
+}
+
+
+/* item menu  */
+
+.cata_section .menu_box {
+    padding: 0;
+}
+
+/* footer  */
+.Catalogy .footer {
+    margin-top: 10rem;
+}

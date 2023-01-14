@@ -1,0 +1,25 @@
+.ItemPage .no_banner {
+    margin-top: 0;
+}
+
+.catlink {
+    background-color: var(--black-color);
+    color: var(--yellow-color);
+    padding: 2rem 1rem;
+    font-size: 2rem;
+    margin: 3rem 0rem;
+    text-align: center;
+}
+
+.ItemPage .Menu_details {
+    padding: 1rem 2rem;
+}
+
+.ItemPage .menu_box {
+    padding: 0;
+}
+
+/* footer  */
+.ItemPage .footer {
+    margin-top: 10rem;
+}
